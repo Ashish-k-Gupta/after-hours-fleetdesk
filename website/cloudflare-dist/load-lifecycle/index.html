@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f2e7">
+  <meta name="description" content="From a booked load to delivery: driver dispatch, ETA checks, BOL review, tracking and customer updates at every milestone.">
+  <title>Load lifecycle &mdash; After Hours</title>
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="../fonts/ibm-plex-sans-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="lifecycle.css">
+  <script type="module" src="progress.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#lifecycle-content">Skip to the load lifecycle</a>
+  <header class="page-header">
+    <a class="brand" href="/" aria-label="After Hours — return to the Route Atlas">
+      <span class="brand-symbol" aria-hidden="true"><i></i><i></i></span>
+      <span>AFTER HOURS<small>THE ROUTE ATLAS</small></span>
+    </a>
+    <nav class="site-navigation" aria-label="Main navigation">
+      <a href="/">Atlas</a>
+      <a href="/load-lifecycle/" aria-current="page">Load lifecycle</a>
+    </nav>
+  </header>
+
+  <main class="story" id="lifecycle">
+    <aside class="load-progress" aria-labelledby="progress-title">
+      <h2 id="progress-title">Progress</h2>
+      <nav class="progress-track" aria-label="Seven stages of the load lifecycle">
+        <ol class="progress-stages" data-progress-stages>
+          <li class="is-current"><a href="#booked" data-progress-step title="Load booked" aria-current="step"><span class="stage-box" aria-hidden="true"><span class="stage-box-number">01</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg></span><span class="stage-label">Load booked</span><span class="sr-only" data-stage-state>Current stage</span></a></li>
+          <li><a href="#dispatched" data-progress-step title="Truck dispatched"><span class="stage-box" aria-hidden="true"><span class="stage-box-number">02</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg></span><span class="stage-label">Truck dispatched</span><span class="sr-only" data-stage-state>Upcoming stage</span></a></li>
+          <li><a href="#shipper" data-progress-step title="Checked-in shipper"><span class="stage-box" aria-hidden="true"><span class="stage-box-number">03</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg></span><span class="stage-label">Checked-in shipper</span><span class="sr-only" data-stage-state>Upcoming stage</span></a></li>
+          <li><a href="#picked-up" data-progress-step title="Pickup &amp; BOL reviewed"><span class="stage-box" aria-hidden="true"><span class="stage-box-number">04</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg></span><span class="stage-label">Pickup &amp; BOL reviewed</span><span class="sr-only" data-stage-state>Upcoming stage</span></a></li>
+          <li><a href="#transit" data-progress-step title="In transit"><span class="stage-box" aria-hidden="true"><span class="stage-box-number">05</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg></span><span class="stage-label">In transit</span><span class="sr-only" data-stage-state>Upcoming stage</span></a></li>
+          <li><a href="#receiver" data-progress-step title="At receiver"><span class="stage-box" aria-hidden="true"><span class="stage-box-number">06</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg></span><span class="stage-label">At receiver</span><span class="sr-only" data-stage-state>Upcoming stage</span></a></li>
+          <li><a href="#delivered" data-progress-step title="Delivered"><span class="stage-box" aria-hidden="true"><span class="stage-box-number">07</span><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m5 12 4 4 10-10"/></svg></span><span class="stage-label">Delivered</span><span class="sr-only" data-stage-state>Upcoming stage</span></a></li>
+        </ol>
+      </nav>
+      <p class="progress-count" data-progress-count>0 of 7 complete</p>
+      <p class="compact-count" data-progress-compact aria-hidden="true">0/7</p>
+
+      <p class="sr-only" data-progress-announcement aria-live="polite" aria-atomic="true"></p>
+    </aside>
+
+      <header class="intro">
+        <h1 id="page-title">Load <em>lifecycle.</em></h1>
+        <p class="intro-copy">From booking to delivery.</p>
+      </header>
+
+    <div class="lifecycle-content" id="lifecycle-content" tabindex="-1">
+
+
+      <section class="step" id="booked" aria-labelledby="booked-title">
+        <span class="step-number" aria-hidden="true">01</span>
+        <div class="step-copy">
+          <h2 id="booked-title">Load booked</h2>
+          <p class="stage-action">Send dispatch details and confirm the pickup ETA.</p>
+        </div>
+      </section>
+
+      <section class="step" id="dispatched" aria-labelledby="dispatched-title">
+        <span class="step-number" aria-hidden="true">02</span>
+        <div class="step-copy">
+          <h2 id="dispatched-title">Truck dispatched</h2>
+          <p class="stage-action">Confirm the truck is en route and update the customer.</p>
+        </div>
+      </section>
+
+      <section class="step" id="shipper" aria-labelledby="shipper-title">
+        <span class="step-number" aria-hidden="true">03</span>
+        <div class="step-copy">
+          <h2 id="shipper-title">Checked-in shipper</h2>
+          <p class="stage-action">Confirm check-in and share the loading status.</p>
+        </div>
+      </section>
+
+      <section class="step" id="picked-up" aria-labelledby="picked-up-title">
+        <span class="step-number" aria-hidden="true">04</span>
+        <div class="step-copy">
+          <h2 id="picked-up-title">Pickup &amp; BOL reviewed</h2>
+          <p class="stage-action">Review the BOL and send the pickup update.</p>
+        </div>
+      </section>
+
+      <section class="step" id="transit" aria-labelledby="transit-title">
+        <span class="step-number" aria-hidden="true">05</span>
+        <div class="step-copy">
+          <h2 id="transit-title">In transit</h2>
+          <p class="stage-action">Check location and ETA, then update the customer.</p>
+        </div>
+      </section>
+
+      <section class="step" id="receiver" aria-labelledby="receiver-title">
+        <span class="step-number" aria-hidden="true">06</span>
+        <div class="step-copy">
+          <h2 id="receiver-title">At receiver</h2>
+          <p class="stage-action">Confirm receiver check-in and update the customer.</p>
+        </div>
+      </section>
+
+      <section class="step" id="delivered" aria-labelledby="delivered-title">
+        <span class="step-number" aria-hidden="true">07</span>
+        <div class="step-copy">
+          <h2 id="delivered-title">Delivered</h2>
+          <p class="stage-action">Review the POD and send the final delivery update.</p>
+        </div>
+      </section>
+    </div>
+    <aside class="progress-preview" data-progress-preview aria-label="3D load view">
+        <figure class="progress-visual" data-progress-visual hidden>
+          <div class="mini-scene" data-mini-scene></div>
+          <figcaption><span data-progress-title>Load booked</span><span>Illustrative load</span></figcaption>
+          <div class="animation-controls" role="group" aria-label="Stage animation playback">
+            <button type="button" data-animation-toggle aria-label="Pause stage animation">Pause</button>
+            <button type="button" data-animation-replay aria-label="Replay stage animation">Replay <span aria-hidden="true">↻</span></button>
+          </div>
+        </figure>
+      </aside>
+  </main>
+  <footer class="page-footer"><span>AFTER HOURS</span><span>Illustrative workflow</span></footer>
+</body>
+</html>
