@@ -22,8 +22,9 @@ Preserve the existing project's Script Properties and mailbox history when updat
 - `sendSelfTestEmail`: the manually requested self-test with a fixed duplicate-check token. The November 1 test was accepted and verified in the same mailbox's Inbox.
 - `testRules`: checks the eligibility and email rules without sending.
 
-The historic ten-recipient manual batch is replaced with a disabled stub so recipient records are not stored in GitHub. The daily automation is preserved. The live Apps Script project was not changed for this sanitization.
+The historic ten-recipient manual batch is replaced with a disabled stub in the working `Code.gs`. The original export, including that recipient list, is preserved as historical data in `../repeset/automation-history.zip` at the owner's request. The daily automation is preserved. The live Apps Script project was not changed for this archive.
 
 ## Local verification
 
 Run `node verify.mjs` with Node.js 22 or newer. It parses the actual Apps Script source and exercises pure eligibility, quota, and scan-cursor behavior with mocked services. It does not access Gmail, contact FMCSA, or send email.
+
