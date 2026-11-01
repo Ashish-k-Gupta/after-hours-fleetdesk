@@ -1,0 +1,18 @@
+{
+  "name": "after-hours-route-atlas",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "dev:lan": "node server.mjs --lan",
+    "dev:cloudflare": "node server.mjs --cloudflare",
+    "build:cloudflare": "node scripts/build-cloudflare.mjs",
+    "check": "node --check dist/atlas.js && node --check dist/inquiry.js && node --check dist/branding.js && node --check dist/eagle.js && node --check dist/dock-flag.js && node --check dist/scenery-batch.js && node --check dist/parked-fleet.js && node --check dist/i40-landmarks.js && node --check dist/stage-copy.js && node --check dist/load-lifecycle/progress.js && node --check dist/load-lifecycle/progress-state.js && node --check dist/load-lifecycle/stage-motion.js && node --check dist/load-lifecycle/progress-scene.js && node --check dist/journey.js && node --check dist/route.js && node --check dist/landscape.js && node --check dist/world.js && node --check dist/scene.js && node --check dist/rig-models.js && node --check server.mjs",
+    "verify": "node scripts/verify-journey.mjs",
+    "verify:stages": "node scripts/verify-stage-animations.mjs",
+    "verify:atlas": "node scripts/verify-atlas-enhancements.mjs",
+    "verify:clearance": "node scripts/verify-route-clearance.mjs",
+    "verify:inquiry": "node scripts/verify-inquiry.mjs"
+  }
+}

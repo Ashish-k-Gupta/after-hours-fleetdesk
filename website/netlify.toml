@@ -1,0 +1,13 @@
+[build]
+  publish = "dist"
+  command = "npm run check"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Before deploying, enable Forms > Enable form detection in the Netlify project.
+# After deployment, configure an email notification for after-hours-inquiry at
+# Forms > Submission notifications, addressed to afterhours.fleetdesk@gmail.com.
+# Verify a hosted test submission in Netlify and Gmail; no SMTP credentials needed.
+# Netlify-provided reCAPTCHA and the honeypot are registered from dist/index.html.
+# Redeploy after adding them. No custom CAPTCHA keys are required for this setup.
