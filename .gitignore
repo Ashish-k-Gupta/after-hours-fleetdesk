@@ -1,0 +1,16 @@
+﻿node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+.clasp.json
+.clasprc.json
+outreach/
+experiment-backups/
+references/
+CHECKPOINT.json
+preview-*.png
+review-*.png
+.DS_Store
+Thumbs.db
