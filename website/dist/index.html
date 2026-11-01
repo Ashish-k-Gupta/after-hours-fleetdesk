@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#F5F3EB">
+<meta name="description" content="Weekend and after-hours OTR support for US fleets with 5–15 trucks. Tracking, driver follow-ups and broker updates through a living 3D route atlas.">
+<title>After Hours &mdash; The Route Atlas</title>
+<link rel="icon" href="data:,"><link rel="preload" href="fonts/ibm-plex-sans-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="modulepreload" href="scene.js"><link rel="modulepreload" href="vendor/three.module.js"><link rel="modulepreload" href="vendor/three.core.js">
+<link rel="stylesheet" href="atlas.css"><script type="module" src="atlas.js"></script><script type="module" src="inquiry.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#yard">Skip to the journey</a>
+<header class="route-header">
+ <a class="brand" href="#yard" aria-label="After Hours &mdash; back to the yard"><span class="brand-symbol" aria-hidden="true"><i></i><i></i></span><span>AFTER HOURS<small>THE ROUTE ATLAS</small></span></a>
+ <nav class="site-navigation" aria-label="Main navigation"><a class="experience-nav" href="#experience">Experience</a><a href="/load-lifecycle/">Load lifecycle <span aria-hidden="true">&nearr;</span></a></nav>
+ <a class="header-end" href="#receiver"><span data-header-status>FOLLOW THE LOAD</span><span data-percent>00%</span></a>
+</header>
+<div class="world-stage" data-scene-state="loading" aria-label="Interactive 3D route atlas inspired by I-40">
+ <div id="scene-host" aria-busy="true"><div class="scene-error" data-scene-error role="status" hidden>The 3D atlas couldn't load. Please reload the page. You can still read the journey.</div></div>
+ <div class="scene-loader" data-scene-loader role="status" aria-live="polite" aria-atomic="true">
+  <span class="scene-loader-symbol" aria-hidden="true"><i></i><i></i></span>
+  <p class="scene-loader-title" data-loader-message>Loading the 3D route&hellip;</p>
+  <span class="scene-loader-track" aria-hidden="true"><i></i></span>
+  <p class="scene-loader-hint">You can keep exploring while it loads.</p>
+ </div>
+ <div class="camera-controls" role="group" aria-label="Camera view" inert><button type="button" data-camera="journey" aria-pressed="true">FOLLOW LOAD</button><span>/</span><button type="button" data-camera="atlas" aria-pressed="false">WHOLE ROUTE</button></div>
+ <button class="motion-toggle" type="button" data-motion-toggle aria-pressed="false" hidden>PAUSE MOTION</button>
+ <div class="map-note" data-map-note><span class="note-kicker" data-note-kicker>00 / THE YARD</span><p data-scene-status>Truck ready. A new load ahead.</p></div>
+ <div class="world-caption" aria-label="Illustrative load telemetry"><span>ILLUSTRATIVE LOAD / AH-01</span><span data-pallet-count>0 / 6 PALLETS</span><span data-document-state>AWAITING PICKUP</span><span data-load-percent hidden></span></div>
+ <span class="motion-note" data-motion-note hidden>REDUCED MOTION</span>
+</div>
+<main class="chapters" id="journey">
+ <section class="chapter chapter-intro" id="yard" data-point="0" aria-labelledby="yard-title"><div class="chapter-inner">
+ <p class="eyebrow">WEEKEND &amp; AFTER-HOURS SUPPORT</p><h1 id="yard-title">Every mile.<br>An update<span>.</span></h1>
+ <p class="chapter-lead service-summary">Weekend and after-hours tracking, driver follow-ups and broker updates for <strong>US fleets with 5&ndash;15 trucks.</strong></p>
+ <div class="hero-actions"><button class="coverage-button" type="button" data-open-coverage aria-haspopup="dialog" aria-controls="coverage-contact">Discuss your coverage <span aria-hidden="true">&nearr;</span></button><a class="scroll-cue" href="#shipper"><span class="arrow-ring" aria-hidden="true">&darr;</span><span>Follow the load</span></a></div>
+ <p class="experience"><a href="#experience"><strong>4 years</strong> in US logistics.<br>Tracking. Communication. After-hours support.<span class="experience-jump">SEE THE EXPERIENCE &darr;</span></a></p>
+ </div></section>
+ <section class="chapter" id="shipper" data-point=".16" aria-labelledby="shipper-title"><div class="chapter-inner">
+ <p class="eyebrow">01 / AT THE DOCK</p><h2 id="shipper-title">Checked in.<br>Clock <em>watching.</em></h2>
+ <p class="chapter-lead">The dock takes its time. We make sure you get paid for it.</p><p class="chapter-copy">In and out times logged, BOL and pallet counts verified, and the detention clock tracked from minute one so you never leave money at the shipper.</p>
+ <div class="work-note"><span class="small-label">WHERE WE HELP</span><p>Shipper check-in, BOL verification, and proactive detention notices to the broker.</p></div><a class="chapter-cue" href="#transit">FOLLOW THE LOAD INTO TRANSIT &darr;</a>
+ </div></section>
+ <section class="chapter" id="transit" data-point=".46" aria-labelledby="transit-title"><div class="chapter-inner">
+ <p class="eyebrow">02 / IN TRANSIT</p><h2 id="transit-title">Miles move.<br>Information should <em>too.</em></h2>
+ <p class="chapter-lead">The road has its turns.<br>The updates stay clear.</p><p class="chapter-copy">Current locations, driver follow-ups, ETA checks, and a clear message when the plan changes. The load keeps moving through the shift.</p>
+ <div class="work-note"><span class="small-label">WHERE WE HELP</span><p>Tracking and tracing, broker check calls, and escalation of reported delays.</p></div><a class="chapter-cue" href="#receiver">FOLLOW THE ROAD TO THE RECEIVER &darr;</a>
+ </div></section>
+ <section class="chapter chapter-finish" id="receiver" data-point=".68" aria-labelledby="receiver-title"><div class="chapter-inner">
+ <p class="eyebrow">03 / AT THE RECEIVER</p><h2 id="receiver-title">Delivered clean.<br>Ready to <em>factor.</em></h2>
+ <p class="chapter-lead">The wheels stop turning. The paperwork moves immediately.</p><p class="chapter-copy">Empty times reported, lumper receipts chased down, and clean PODs verified and sent to the broker before your driver even pulls out of the yard.</p>
+ <div class="work-note"><span class="small-label">WHERE WE HELP</span><p>POD collection, lumper receipt requests, and immediate billing handoff.</p></div><div class="closing-actions"><button class="coverage-button" type="button" data-open-coverage aria-haspopup="dialog" aria-controls="coverage-contact">Discuss your coverage <span aria-hidden="true">&nearr;</span></button><a class="replay-link" href="#experience">SEE THE EXPERIENCE &darr;</a></div>
+ </div></section>
+</main>
+<section class="experience-section" id="experience" aria-labelledby="experience-title">
+ <div class="experience-layout">
+  <div class="experience-introduction">
+   <p class="eyebrow">SELECTED LOGISTICS EXPERIENCE</p>
+   <h2 id="experience-title">Experience behind<br>the <em>updates.</em></h2>
+   <div class="experience-stat"><strong>4</strong><span>YEARS IN<br>US LOGISTICS</span></div>
+   <p class="experience-description">Tracking and tracing, driver follow-ups, customer communication, and after-hours support in US OTR operations.</p>
+   <div class="shift-note"><p class="small-label">MAIN SHIFT &amp; AFTER-HOURS</p><p>Across these roles, shifts rotated between six weeks on the main shift during Indian nights, followed by after-hours coverage during Indian days.</p></div>
+  </div>
+  <div class="experience-history">
+   <div class="current-status" aria-labelledby="current-status-label">
+    <p class="small-label" id="current-status-label">CURRENT STATUS</p>
+    <p>I&rsquo;m currently employed. Through After Hours, I offer independent weekend and after-hours OTR support, with coverage agreed in advance.</p>
+   </div>
+   <article class="history-item" aria-labelledby="quality-role">
+    <p class="history-period"><span><time datetime="2022-11">NOV 2022</time> &mdash; <time datetime="2023-08">AUG 2023</time></span></p>
+    <h3 id="quality-role">Dispatch Executive</h3>
+    <p class="history-employer">Quality Enterprise</p>
+    <p class="history-description">At Quality Enterprise, I supported dispatch and tracking operations for <strong>Laut Transportation Inc.</strong>, <strong>FBT Inc.</strong>, and <strong>Harrison Transportation Inc.</strong></p>
+    <p class="history-description history-description-followup">My responsibilities included long-haul shipment tracking and tracing, driver follow-ups, customer/client email communication, load-status enquiries, and after-hours updates. I coordinated with tracking and dispatch teams to keep driver and load information current.</p>
+   </article>
+   <article class="history-item" aria-labelledby="sigea-role">
+    <p class="history-period"><span><time datetime="2022-02">FEB 2022</time> &mdash; <time datetime="2022-11">NOV 2022</time></span><span class="employment-type">FULL-TIME</span></p>
+    <h3 id="sigea-role">Dispatch Executive</h3>
+    <p class="history-employer">Sigea Solutions</p>
+    <p class="history-description">Worked full-time as part of Sigea Solutions&rsquo; in-office operations team, handling tracking and tracing primarily for <strong>Freon Logistics</strong> in Bakersfield, California, with additional tracking work for <strong>LDH Xpress Inc.</strong> and <strong>Quad Trans Inc.</strong></p>
+   </article>
+   <p class="experience-context">These are selected past employment roles. After Hours offers weekend and after-hours support as a separate service. Company names identify past experience and do not imply endorsement of After Hours.</p>
+   <div class="experience-actions"><button class="coverage-button" type="button" data-open-coverage aria-haspopup="dialog" aria-controls="coverage-contact">Discuss your coverage <span aria-hidden="true">&nearr;</span></button><a class="replay-link" href="#yard">TAKE THE JOURNEY AGAIN &nearr;</a></div>
+  </div>
+ </div>
+</section>
+<footer><span>AFTER HOURS</span><span>Tracking & tracing &middot; Customer updates &middot; Weekend &amp; after-hours support</span><span>I-40-inspired miniature &middot; Six sample pallets</span></footer>
+<dialog class="coverage-dialog" id="coverage-contact" aria-labelledby="coverage-title" aria-describedby="coverage-status">
+ <form method="dialog" class="coverage-close-form"><button class="coverage-close" type="submit" aria-label="Close coverage details" autofocus><span aria-hidden="true">&times;</span></button></form>
+ <p class="small-label">WEEKEND &amp; AFTER-HOURS / SMALL-FLEET SUPPORT</p>
+ <h2 id="coverage-title">Let&rsquo;s talk coverage.</h2>
+ <p class="coverage-intro" id="coverage-status">Tell us which weekend or after-hours shifts you need covered.</p>
+ <form class="inquiry-form" name="after-hours-inquiry" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-inquiry-form>
+  <input type="hidden" name="form-name" value="after-hours-inquiry">
+  <input type="hidden" name="subject" value="After Hours - weekend and after-hours coverage inquiry">
+  <p hidden><label>Leave this field empty <input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+  <fieldset class="inquiry-fields" data-inquiry-fields>
+   <legend class="sr-only">Your coverage inquiry</legend>
+   <label class="inquiry-field" for="inquiry-name"><span>Name</span><input id="inquiry-name" name="name" type="text" autocomplete="name" maxlength="80" required></label>
+   <div class="inquiry-row">
+    <label class="inquiry-field" for="inquiry-email"><span>Email</span><input id="inquiry-email" name="email" type="email" autocomplete="email" autocapitalize="none" spellcheck="false" maxlength="254" placeholder="you@company.com" required></label>
+    <label class="inquiry-field" for="inquiry-fleet-size"><span>Fleet size <small>optional</small></span><input id="inquiry-fleet-size" name="fleet-size" type="number" inputmode="numeric" min="1" max="999" step="1" placeholder="Number of trucks"></label>
+   </div>
+   <label class="inquiry-field" for="inquiry-message"><span>What coverage do you need?</span><textarea id="inquiry-message" name="message" rows="4" maxlength="3000" aria-describedby="inquiry-message-hint" required></textarea><small id="inquiry-message-hint">Include the weekend days or after-hours shifts, time zone and support you need.</small></label>
+  </fieldset>
+  <div class="inquiry-spam-check">
+   <p class="inquiry-spam-label">Spam protection <small>Complete the check before sending.</small></p>
+   <div data-netlify-recaptcha="true" data-size="compact"></div>
+  </div>
+  <button class="coverage-button inquiry-submit" type="submit" data-inquiry-submit aria-describedby="inquiry-status" disabled>Send inquiry</button>
+  <p class="inquiry-status" id="inquiry-status" data-inquiry-status role="status" aria-live="polite">The form is not ready to send yet. You can email us directly below.</p>
+  <noscript><p class="inquiry-status">Please use the direct email link below to discuss coverage.</p></noscript>
+ </form>
+ <p class="direct-email-label">PREFER EMAIL?</p>
+ <a class="contact-email" href="mailto:afterhours.fleetdesk@gmail.com?subject=Fleet%20coverage">afterhours.fleetdesk@gmail.com</a>
+</dialog>
+<div class="sr-only" role="status" aria-live="polite" data-announcement></div><noscript><p>Enable JavaScript for the interactive 3D atlas. All three operational chapters remain readable.</p></noscript>
+</body></html>
