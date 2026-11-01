@@ -1,0 +1,1179 @@
+﻿{
+    "createdUTC":  "2026-11-01T18:46:00.1833963Z",
+    "repository":  "https://github.com/Ashish-k-Gupta/after-hours-fleetdesk",
+    "folder":  "repeset",
+    "originalProjectFileCount":  212,
+    "originalProjectFilesAlreadyInWebsite":  72,
+    "originalProjectFilesArchivedHere":  140,
+    "archiveEntryHashesVerified":  true,
+    "archives":  [
+                     {
+                         "file":  "notes.zip",
+                         "purpose":  "Original project decisions, development history, design QA, and performance notes.",
+                         "source":  "D:\\Ashish\\otr-route-atlas",
+                         "count":  4,
+                         "bytes":  51747,
+                         "sha256":  "5581AEB6F126EE6D2C47369DD75E8F65745A75B9C034AEC6EDA543C6F9463DAC",
+                         "entries":  [
+                                         {
+                                             "path":  "CHECKPOINT.json",
+                                             "bytes":  51781,
+                                             "sha256":  "00397921011AB34F1476102AB3046984DF6E981B5760D2C9CAD350D690DAE8C8"
+                                         },
+                                         {
+                                             "path":  "design-qa.md",
+                                             "bytes":  46140,
+                                             "sha256":  "8686E507D532CDB9F7F33E32D703EE2E19880825CE34E3012286391E6B4DD19B"
+                                         },
+                                         {
+                                             "path":  "README.md",
+                                             "bytes":  46236,
+                                             "sha256":  "8E426B9925BBCABB5AC7581C8D38D4323ACFB69BF959674D0D7790C4CAB02DD2"
+                                         },
+                                         {
+                                             "path":  "scenery-performance.json",
+                                             "bytes":  564,
+                                             "sha256":  "591536996AF941D8482F9F4BCFA3765B28F6BEB3CB8F2724DA610D2C32104312"
+                                         }
+                                     ]
+                     },
+                     {
+                         "file":  "outreach.zip",
+                         "purpose":  "Historic five-carrier research, personalized messages, sending records, and screenshot.",
+                         "source":  "D:\\Ashish\\otr-route-atlas",
+                         "count":  4,
+                         "bytes":  83249,
+                         "sha256":  "A58C94EE381199E3A5DDAF4D86B450CB5FDDD720EC88322A3B0310BCE7BAE7BC",
+                         "entries":  [
+                                         {
+                                             "path":  "outreach/carrier-batch-01-preview.txt",
+                                             "bytes":  7418,
+                                             "sha256":  "BAA0A62C1481D9803BC4146E27CF06443D0D5B80CEF4008777D035DA6E59B825"
+                                         },
+                                         {
+                                             "path":  "outreach/carrier-batch-01-send-receipts.json",
+                                             "bytes":  1510,
+                                             "sha256":  "CF79079B94CA3B3A86A24E972081A945CCE2512DE166A60FAB2D65DD453191AC"
+                                         },
+                                         {
+                                             "path":  "outreach/carrier-batch-01-sent.png",
+                                             "bytes":  99782,
+                                             "sha256":  "1102759D70B409B2085340258EC1B75B1B5E4464F2C4A799FECDDA31A4C118FC"
+                                         },
+                                         {
+                                             "path":  "outreach/carrier-batch-01.json",
+                                             "bytes":  13250,
+                                             "sha256":  "28A140988D4213473F71F9303DA9E57ED8220876540D72EAD09AAAEBD0159BE5"
+                                         }
+                                     ]
+                     },
+                     {
+                         "file":  "screenshots-references.zip",
+                         "purpose":  "45 project screenshots and two design reference images.",
+                         "source":  "D:\\Ashish\\otr-route-atlas",
+                         "count":  47,
+                         "bytes":  14696356,
+                         "sha256":  "99D6995BC73EEDA798B3B64F505FC3D770966CF109D9DE237CBA01020F1B246F",
+                         "entries":  [
+                                         {
+                                             "path":  "comparison-typography.png",
+                                             "bytes":  524058,
+                                             "sha256":  "F931DA2B0EA7E1AC17714118C6E1EF361F117785259F3369D7B5F9C0A2F2B021"
+                                         },
+                                         {
+                                             "path":  "comparison.png",
+                                             "bytes":  3465302,
+                                             "sha256":  "31AC8FDB73AF9891D0DB7557DEFD52FB7A47E3A3F8A5629C8414DBDC5941D7A3"
+                                         },
+                                         {
+                                             "path":  "preview-business-sender-received-spam.png",
+                                             "bytes":  91997,
+                                             "sha256":  "40746C85392515D4D8CEA38829B8EDD913FDF5721C78A0CDBE0874E625F666C9"
+                                         },
+                                         {
+                                             "path":  "preview-california-state-flag.png",
+                                             "bytes":  95850,
+                                             "sha256":  "BEDE39EB96FE249B2EB73A1518A920DDC1F3CFA1167E4B79B0ADD2C930A817A4"
+                                         },
+                                         {
+                                             "path":  "preview-cloudflare-deployed-email-desktop.png",
+                                             "bytes":  84801,
+                                             "sha256":  "95B7382E01C3BA42A10743915C7E1F5D2C66EEAF56E2657F0BBCC2F7310E3B6A"
+                                         },
+                                         {
+                                             "path":  "preview-cloudflare-deployed-email-mobile.png",
+                                             "bytes":  26838,
+                                             "sha256":  "B24EB820334BD5DE24A2A30A8078C26DD4D11EA641624CB155BB7B383EAFA16B"
+                                         },
+                                         {
+                                             "path":  "preview-cloudflare-email-only-desktop.png",
+                                             "bytes":  90062,
+                                             "sha256":  "1E18E2913E7AEB98E70276E0D4638E100A9DAA752EA9F27D527335D164A86919"
+                                         },
+                                         {
+                                             "path":  "preview-cloudflare-email-only-mobile.png",
+                                             "bytes":  25304,
+                                             "sha256":  "AEA5E3610B881CA2F890E8230C5C17DBC57D2EE83D723759E79BF89CD9A65C73"
+                                         },
+                                         {
+                                             "path":  "preview-cloudflare-fix-local.png",
+                                             "bytes":  128581,
+                                             "sha256":  "2DB1FF6F41E1B29A46F81E220ADEF5B0BDCA4C141DC7B3604317559E2485712B"
+                                         },
+                                         {
+                                             "path":  "preview-cloudflare-link-inbox.png",
+                                             "bytes":  80022,
+                                             "sha256":  "F1B3694713405047F1B18689CCB56D0F2104E040AE788EB2FA5C12F2E4E5CADB"
+                                         },
+                                         {
+                                             "path":  "preview-cloudflare-netlify-inbox-comparison.png",
+                                             "bytes":  84045,
+                                             "sha256":  "9405576AC92A37EC640508F5E4B2680574ED9823EBEDDD685084C5FBB26A884A"
+                                         },
+                                         {
+                                             "path":  "preview-cloudflare-upload-handoff.png",
+                                             "bytes":  78338,
+                                             "sha256":  "D182E8E170E45C99126D63D0ADA387C8E0FFDF057B1B88F914283CE4034FB0C5"
+                                         },
+                                         {
+                                             "path":  "preview-delivered.png",
+                                             "bytes":  549426,
+                                             "sha256":  "8202A0F5BFC7A347D6DD73E1694FCBF508954F77354CC6C79D856DA13C2A38A4"
+                                         },
+                                         {
+                                             "path":  "preview-desktop.png",
+                                             "bytes":  655730,
+                                             "sha256":  "FF704F98DC99293FEB2CED47CF80E70CBE4137080194E44CD584D0D51DC4DAEA"
+                                         },
+                                         {
+                                             "path":  "preview-header-updated.png",
+                                             "bytes":  672710,
+                                             "sha256":  "CADC7DB6939B642E54670BD090C2D481AE580FAA5B8330FB0BC6F2E0D17206D7"
+                                         },
+                                         {
+                                             "path":  "preview-mobile-route-fixed.png",
+                                             "bytes":  38015,
+                                             "sha256":  "9C0386E4655233AF5D43AEAE6C9023E68C97613AAAE6F03B9F66EDD36F42A882"
+                                         },
+                                         {
+                                             "path":  "preview-mobile.png",
+                                             "bytes":  248835,
+                                             "sha256":  "8E7283D3BAE2DA7CC518D6C368FD8329E75FCED4D734295B53F02809700D676A"
+                                         },
+                                         {
+                                             "path":  "preview-netlify-form-recheck.png",
+                                             "bytes":  95785,
+                                             "sha256":  "36C58E18B95F6D5B50F67F4A1D94F3E921888147C5D59346E989AD3CA7C982DF"
+                                         },
+                                         {
+                                             "path":  "preview-netlify-form.png",
+                                             "bytes":  90860,
+                                             "sha256":  "79E518545E32E16B32EA814F5CEEECA6F009E4D68E703972E7F0587CA80C488F"
+                                         },
+                                         {
+                                             "path":  "preview-netlify-live-form-unavailable.png",
+                                             "bytes":  95785,
+                                             "sha256":  "36C58E18B95F6D5B50F67F4A1D94F3E921888147C5D59346E989AD3CA7C982DF"
+                                         },
+                                         {
+                                             "path":  "preview-netlify-live-submission-success.png",
+                                             "bytes":  97665,
+                                             "sha256":  "E175F931994FA2F7A3A1BA9B9366AA65F2B743E42F0A33998412DCB6F41E69C8"
+                                         },
+                                         {
+                                             "path":  "preview-outreach-email-clean-sent.png",
+                                             "bytes":  76568,
+                                             "sha256":  "D9DD637D28C90CA07C3A4BE6216EE39EB9B3DEDC1F27DB1278A2A54BA510C4ED"
+                                         },
+                                         {
+                                             "path":  "preview-outreach-email-sent.png",
+                                             "bytes":  83940,
+                                             "sha256":  "8B84EF60E6205E6BE8F6C6013ACF94111B95CD9376B9251785E1038EA282CAD5"
+                                         },
+                                         {
+                                             "path":  "preview-outreach-new-format-sent.png",
+                                             "bytes":  76888,
+                                             "sha256":  "E05E130D4269B9F4815EFA8F052456C05BA38564AB412E48FDBD648058814245"
+                                         },
+                                         {
+                                             "path":  "preview-portfolio-link-comparison.png",
+                                             "bytes":  71997,
+                                             "sha256":  "C6CA69959AEA03FFA190BBC8F577648A3C74877CEF452F7F79DE71A0BE55BCD4"
+                                         },
+                                         {
+                                             "path":  "preview-portfolio-url-removed-inbox.png",
+                                             "bytes":  75903,
+                                             "sha256":  "89F8E03EAE72B2C2FC6D952D08E3A10CF96D0B338DF7B29A526D36E00A59C2EB"
+                                         },
+                                         {
+                                             "path":  "preview-readable-desktop.png",
+                                             "bytes":  586368,
+                                             "sha256":  "73012B7EF7E296BE1E2050063D5397CF9C2FC01AC152B2742E939138D371D2D2"
+                                         },
+                                         {
+                                             "path":  "preview-readable-mobile.png",
+                                             "bytes":  187021,
+                                             "sha256":  "5EC7F5BD172F00C72FA86B9CB725976BB38A2743273E6D05E081AE249933A689"
+                                         },
+                                         {
+                                             "path":  "preview-receiver-state-flag.png",
+                                             "bytes":  100007,
+                                             "sha256":  "88F1DDC5ABFE50539B147A3BF01E8B0E79292D96C303A5EE6C8DE63FAF67E635"
+                                         },
+                                         {
+                                             "path":  "preview-reference-size.png",
+                                             "bytes":  826738,
+                                             "sha256":  "3DD43BBADEB0FC88A7B4C4646530105AB27FACB9F714C826F2DF19455A890FCA"
+                                         },
+                                         {
+                                             "path":  "preview-scene-loaded.png",
+                                             "bytes":  130475,
+                                             "sha256":  "072044308AD8297AB58778D31F31E15A00918EC0080574829C7329117351F2DB"
+                                         },
+                                         {
+                                             "path":  "preview-scene-loading-desktop.png",
+                                             "bytes":  53832,
+                                             "sha256":  "63E59F38669DCF74EBC3911171957C99D700CA0DDAB6926C8393D83058439631"
+                                         },
+                                         {
+                                             "path":  "preview-scene-loading-mobile.png",
+                                             "bytes":  25062,
+                                             "sha256":  "04B6BAB59554CD596F5597E92F01E59BFB60BC65AE553F67A9174993E77CF5AC"
+                                         },
+                                         {
+                                             "path":  "preview-spam-protection-local.png",
+                                             "bytes":  97091,
+                                             "sha256":  "501B6CAC6B6A985259628149165DA8E9F47356BDF3E71C1DB424BB815883D80E"
+                                         },
+                                         {
+                                             "path":  "preview-spam-protection-mobile-local.png",
+                                             "bytes":  28764,
+                                             "sha256":  "30B0300B53F466B1D76A75D97FCDD88A230DAC273A11DF407B02A8CB85CFBFB9"
+                                         },
+                                         {
+                                             "path":  "preview-truck-clearance-fixed.png",
+                                             "bytes":  106451,
+                                             "sha256":  "E49D7A21C3C3090A53C0555870BB52D4D015BABF40FED5E78D8B48269089F7CC"
+                                         },
+                                         {
+                                             "path":  "preview-updated-cloudflare-email-inbox.png",
+                                             "bytes":  80945,
+                                             "sha256":  "8D5ACD6ED6508882A0C664564513D54EB9AF8A1284ED6E94E430A392862E2131"
+                                         },
+                                         {
+                                             "path":  "preview-weekend-inquiry-form.png",
+                                             "bytes":  90810,
+                                             "sha256":  "BF5FB1B432505BE2F62A3E33FE764B4289F2BA861B3E79D2352D6116BB1CB768"
+                                         },
+                                         {
+                                             "path":  "preview-weekend-inquiry-mobile.png",
+                                             "bytes":  29700,
+                                             "sha256":  "FC3B2584350965E08AAD64E77CB3D5B40E12DE805E676D2111D9A8DDBFFB4A60"
+                                         },
+                                         {
+                                             "path":  "preview-weekend-service.png",
+                                             "bytes":  131948,
+                                             "sha256":  "3D7E7599292187C91D2B5D7A494EB8355C577D02B28FF17A47A8397D6912FAFD"
+                                         },
+                                         {
+                                             "path":  "preview-whole-route-fixed.png",
+                                             "bytes":  92522,
+                                             "sha256":  "0CE753A1E908A274AC8C142EC8B0D90AA102B483D400714EB03B574551F252D7"
+                                         },
+                                         {
+                                             "path":  "review-desktop-06.png",
+                                             "bytes":  129039,
+                                             "sha256":  "CEE780BAF101E7A3F3CE46E7D6851DB9A64AAA7E7A5374FB527CA0000930FB91"
+                                         },
+                                         {
+                                             "path":  "review-desktop-12.png",
+                                             "bytes":  131685,
+                                             "sha256":  "6B3A291059BB605B0DE4707DBDFCD29DBF3457B4C7812D423E0EFE1C770561BA"
+                                         },
+                                         {
+                                             "path":  "review-desktop-19.png",
+                                             "bytes":  131652,
+                                             "sha256":  "BA0245B6B12BAB8546CDE8DD2005CDA06677270C5E9FB4AEC05557BDFB1DC3A4"
+                                         },
+                                         {
+                                             "path":  "review-desktop-51.png",
+                                             "bytes":  100910,
+                                             "sha256":  "FA728F1D009BA4414471F5265572CCEAEF7324C3AB2CC6269BD9465C4E24DEA0"
+                                         },
+                                         {
+                                             "path":  "references/selected-atlas-normalized.png",
+                                             "bytes":  2444317,
+                                             "sha256":  "47B1352F9C6CC49C2BC53014FE43A303929939AA6DA294B8268714C7B1AD92E7"
+                                         },
+                                         {
+                                             "path":  "references/selected-atlas.png",
+                                             "bytes":  2042906,
+                                             "sha256":  "202B98F99E6B7A00DB8181779FA6D02B03D5E23CB142B9C38AFD213E5502EA95"
+                                         }
+                                     ]
+                     },
+                     {
+                         "file":  "website-history.zip",
+                         "purpose":  "Six experiment backup folders and eight historical deployment ZIPs.",
+                         "source":  "D:\\Ashish\\otr-route-atlas",
+                         "count":  85,
+                         "bytes":  5805843,
+                         "sha256":  "9376FDC1294E670E3D588B3EE849E06BCBD14B6BB00DE7FF13AC70B6DA17DDDD",
+                         "entries":  [
+                                         {
+                                             "path":  "after-hours-cloudflare-20261024.zip",
+                                             "bytes":  571641,
+                                             "sha256":  "2FD0AFD3C8CC3D12129D21231C65676617632F2EBBA66C705174A1C883B7D93A"
+                                         },
+                                         {
+                                             "path":  "after-hours-cloudflare-email-only.zip",
+                                             "bytes":  573243,
+                                             "sha256":  "43FB5E35A1AD176FF5FA1191A6D3F9A2035F119B47ABD66EE83A045C4DB36B2F"
+                                         },
+                                         {
+                                             "path":  "after-hours-cloudflare-fixed.zip",
+                                             "bytes":  571634,
+                                             "sha256":  "1715221214E20E33A4CEE1E054013596FDD3A1CF5AC891435F148790F62D9EC0"
+                                         },
+                                         {
+                                             "path":  "after-hours-cloudflare-inquiries.zip",
+                                             "bytes":  574910,
+                                             "sha256":  "BB50FA3F09C498A9E4B1902E2B875C0B0523C86C666B9B500554CDB93AEDED95"
+                                         },
+                                         {
+                                             "path":  "after-hours-cloudflare-loader.zip",
+                                             "bytes":  575813,
+                                             "sha256":  "E9C39A5C1B71CD94684592A9F0C290BF547C5403EFBA4237777D886A25A825D2"
+                                         },
+                                         {
+                                             "path":  "after-hours-cloudflare-updated.zip",
+                                             "bytes":  574707,
+                                             "sha256":  "AF45D1E990A64750689BA484DA8679EFE25A4F53FED84DDA536B127E25C35F37"
+                                         },
+                                         {
+                                             "path":  "after-hours-netlify-protected.zip",
+                                             "bytes":  576117,
+                                             "sha256":  "8FDBD7C6FB3B1DF2E2D03620667E39DB7F1A32B443A800500170F249EE8F7B3D"
+                                         },
+                                         {
+                                             "path":  "after-hours-netlify.zip",
+                                             "bytes":  575810,
+                                             "sha256":  "E7120DA2FF255DD74D62D3DE7479D9A3D0CB38792EC06FA57BD33768C34B5E04"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-contact-20261024/atlas.css",
+                                             "bytes":  20185,
+                                             "sha256":  "6276EDA52646FC2E4A2806C5473CED622812336A79FA6BB5D69C50CC84F6D151"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-contact-20261024/atlas.js",
+                                             "bytes":  6974,
+                                             "sha256":  "7216E3FA766C054B1F8CBAF6720BC1FD04AB6E44CD683A25F7E645F9161B0A26"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-contact-20261024/CHECKPOINT.json",
+                                             "bytes":  17736,
+                                             "sha256":  "6F7F12556D72D6B4B70165C561A4115059390E6839FAC697BD092916E66D2735"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-contact-20261024/index.html",
+                                             "bytes":  5579,
+                                             "sha256":  "E1B5D94EE2F1820AFB17C7F250D3CF9C9782E75777B64EE257657C1ECAB6FDA4"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/CHECKPOINT.json",
+                                             "bytes":  16841,
+                                             "sha256":  "0E512596C78DF720A2BF77D28BC2E18CD0CE1D7134F761415578EAE332572FCF"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/design-qa.md",
+                                             "bytes":  25792,
+                                             "sha256":  "763CE85215E2C7F5B1C9CFB401ECA97F37725F5630B3194D0D7EA95314665256"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/package.json",
+                                             "bytes":  897,
+                                             "sha256":  "59514FB1B734B93A40CC7046A201A5CD0E63BCFE34F2E4C1E4A6E41189D2868E"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/README.md",
+                                             "bytes":  10160,
+                                             "sha256":  "BAC28788E1DF88EFC327927734D56A9CADDEDB08AE95426D12B035BC01AF9B76"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/atlas.css",
+                                             "bytes":  20185,
+                                             "sha256":  "6276EDA52646FC2E4A2806C5473CED622812336A79FA6BB5D69C50CC84F6D151"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/atlas.js",
+                                             "bytes":  6957,
+                                             "sha256":  "B2975657BC2931B179EA6C94B4556F1D03ED24D597F1ABC3A1A1229C727B8ED5"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/branding.js",
+                                             "bytes":  1497,
+                                             "sha256":  "197167A0C2D5597FA9AD6B63FEAA7A68332850582CA61D2C05E24B59FA935D1D"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/eagle.js",
+                                             "bytes":  4866,
+                                             "sha256":  "3A7D331EBA8A6C38E5F9648F4912E9B8DF22F9B5AFFD8CEE0A3032BF3C26E44F"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/index.html",
+                                             "bytes":  5597,
+                                             "sha256":  "F1C8672A0E1599C411CC70099AD50570C0C7EDD7D022F943AC875A7357AF8E7A"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/journey.js",
+                                             "bytes":  4369,
+                                             "sha256":  "3C6108ECC65A12127BA7E8D162572BC3A0A3C29A76001DDE7B8CAC452E4999B5"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/landscape.js",
+                                             "bytes":  8241,
+                                             "sha256":  "A6B6BA6B19ED03E61EDA994629270A428D9B03DBF0F3EED2660650AC947B0ABD"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/rig-models.js",
+                                             "bytes":  12817,
+                                             "sha256":  "838938689BE27D518813771F6B3C0DC116581ECBB1BD2635DA9D8380CDA7C30E"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/route.js",
+                                             "bytes":  595,
+                                             "sha256":  "8F5BA4BB475D7FA7644A217E2E8A9FE688008A908A4D121437C050201A4CCCF1"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/scene.js",
+                                             "bytes":  8971,
+                                             "sha256":  "50A3FECC67083DD9A0299AF9FFBA6ECA1EBA4858D77603AF2EAECE89161CC5B8"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/stage-copy.js",
+                                             "bytes":  1564,
+                                             "sha256":  "15745FBDD84297AD80D3DC48D5F90713B7AD0C9439D6D32DA38BB4BA37814983"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/world.js",
+                                             "bytes":  8207,
+                                             "sha256":  "5BA4CED7C33757976789DFE2B8103D23B7BEDB53E18CE524B4C31B6A23256F3E"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/fonts/ibm-plex-sans-latin-400-normal.woff2",
+                                             "bytes":  22588,
+                                             "sha256":  "3B646991D30055A93A4ECC499713D4347953A74A947ECAB435AB72070CBDAB0E"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/fonts/ibm-plex-sans-latin-600-normal.woff2",
+                                             "bytes":  24252,
+                                             "sha256":  "8960851D691C054ED38E259BDCF1A6190D157B4203ED5BB32C632A863FB8EC2F"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/fonts/ibm-plex-sans-latin-700-normal.woff2",
+                                             "bytes":  22832,
+                                             "sha256":  "42E7B0C143C19DF9D99FD896E76B48F846EDF0902D200BC29796B34D12C33AA7"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/fonts/jetbrains-mono-latin-400.woff2",
+                                             "bytes":  19188,
+                                             "sha256":  "80A5DC9EE5C98AA278DB4D618D253A1A9DE8CFD5FF9D43A7A9CF41CBC4B6CE78"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/fonts/JetBrainsMono-OFL.txt",
+                                             "bytes":  4397,
+                                             "sha256":  "BB1C26EB6FE1839E3759548777C8A35B9495CE4878A4B833B1B63D43FF313A4B"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/fonts/OFL.txt",
+                                             "bytes":  4429,
+                                             "sha256":  "D0283623EF57E722FD0EB688A8041589670C608AB780CD3612D06BA6F153D3FD"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/load-lifecycle/index.html",
+                                             "bytes":  7920,
+                                             "sha256":  "68439FC13FEEEB95A1D1BAE8611289A6B1DD08D626AEB1C861946F2429D7AA1C"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/load-lifecycle/lifecycle.css",
+                                             "bytes":  10591,
+                                             "sha256":  "C10ABFACD932B80B3CF94D4ACA588BB565A0926A86EDF18E39B32FAE7703B869"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/load-lifecycle/progress-scene.js",
+                                             "bytes":  18007,
+                                             "sha256":  "6866A6A6663F6A3A820CB4D9D2B1A2644976D6631E132BE1AE275A3098B5C288"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/load-lifecycle/progress-state.js",
+                                             "bytes":  1420,
+                                             "sha256":  "ACDFE7FC4D701763027A3264CA1352EE34570474957240000D6F21EAE96C60EF"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/load-lifecycle/progress.js",
+                                             "bytes":  6663,
+                                             "sha256":  "064B4A15247A1E7666358CF2EDAAEB62BE614F5C8727D95D3B365FEBC6200D6A"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/load-lifecycle/stage-motion.js",
+                                             "bytes":  3534,
+                                             "sha256":  "AB1B97557F62752CB9C305E86D4D0C9DB02106B711804760161292E5E1976710"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/vendor/THREE-LICENSE.txt",
+                                             "bytes":  1081,
+                                             "sha256":  "8B378EBE60E2FE500158CB0AC71CB5E8B7D92953C2ABCC63A0EB90499653B5BC"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/vendor/three.core.js",
+                                             "bytes":  1458113,
+                                             "sha256":  "9EDDE002B066A9A05676A6127F67735B62BAF399BDEA529F2F7E31657DA769E6"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-dock-flag-20261024/dist/vendor/three.module.js",
+                                             "bytes":  662772,
+                                             "sha256":  "9052042D676CB0FDC1DDFEFE193053F34B7AC0513A616FDAC4535D49987812EA"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/CHECKPOINT.json",
+                                             "bytes":  10042,
+                                             "sha256":  "397C27E791DCD60A5D5498EB64C7D09EBA030884E3B12A0BC9C16ADED8A8D94B"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/design-qa.md",
+                                             "bytes":  24171,
+                                             "sha256":  "30E396FCC20D259BAC17927BED13A740FD9C6122A87B5B6B4913E67943172713"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/package.json",
+                                             "bytes":  733,
+                                             "sha256":  "C79BED42B4B6B78FC297D999528AF032A15384AAD1EF42431D3A37238C692B74"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/README.md",
+                                             "bytes":  7033,
+                                             "sha256":  "015268804C49FD5233342BB512ED9AFE6EB36BA1FF6AB40897E58058D0495C82"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/atlas.css",
+                                             "bytes":  18395,
+                                             "sha256":  "4752F720F6DC01FF9C8F6BD7C4A53D1FE005EF10DDB4E7F40B3CED9FC765B9F7"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/atlas.js",
+                                             "bytes":  5350,
+                                             "sha256":  "813408AB236CE2B40F78661E9C101421840936BF76F607B256D99C78D05B28B9"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/index.html",
+                                             "bytes":  6033,
+                                             "sha256":  "97C560C59005A5E13B75CC503CBB15F2FDEC6CD96826FD7CA315B8F6833B6BB8"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/journey.js",
+                                             "bytes":  4369,
+                                             "sha256":  "3C6108ECC65A12127BA7E8D162572BC3A0A3C29A76001DDE7B8CAC452E4999B5"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/landscape.js",
+                                             "bytes":  8180,
+                                             "sha256":  "A75829A473214342F42DA5278C6D9D6BFA8F170B833A1988D71803E2B500B282"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/rig-models.js",
+                                             "bytes":  12010,
+                                             "sha256":  "238539908BFA46ABE9B9EF706CA77CC8A9C52ED49AB53E6515C23F5C54641D20"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/route.js",
+                                             "bytes":  595,
+                                             "sha256":  "8F5BA4BB475D7FA7644A217E2E8A9FE688008A908A4D121437C050201A4CCCF1"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/scene.js",
+                                             "bytes":  5495,
+                                             "sha256":  "2D5FBDE65EA1C0C05D54355C5DC7D769FF0286417F96B72B979B788C4397C9DB"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/world.js",
+                                             "bytes":  7118,
+                                             "sha256":  "BD336B3BC41DB7DF6816F9B871E951B56C3F4701342A85E9C156DD0501FB74DE"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/fonts/ibm-plex-sans-latin-400-normal.woff2",
+                                             "bytes":  22588,
+                                             "sha256":  "3B646991D30055A93A4ECC499713D4347953A74A947ECAB435AB72070CBDAB0E"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/fonts/ibm-plex-sans-latin-600-normal.woff2",
+                                             "bytes":  24252,
+                                             "sha256":  "8960851D691C054ED38E259BDCF1A6190D157B4203ED5BB32C632A863FB8EC2F"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/fonts/ibm-plex-sans-latin-700-normal.woff2",
+                                             "bytes":  22832,
+                                             "sha256":  "42E7B0C143C19DF9D99FD896E76B48F846EDF0902D200BC29796B34D12C33AA7"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/fonts/OFL.txt",
+                                             "bytes":  4429,
+                                             "sha256":  "D0283623EF57E722FD0EB688A8041589670C608AB780CD3612D06BA6F153D3FD"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/load-lifecycle/index.html",
+                                             "bytes":  7920,
+                                             "sha256":  "68439FC13FEEEB95A1D1BAE8611289A6B1DD08D626AEB1C861946F2429D7AA1C"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/load-lifecycle/lifecycle.css",
+                                             "bytes":  10591,
+                                             "sha256":  "C10ABFACD932B80B3CF94D4ACA588BB565A0926A86EDF18E39B32FAE7703B869"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/load-lifecycle/progress-scene.js",
+                                             "bytes":  18007,
+                                             "sha256":  "6866A6A6663F6A3A820CB4D9D2B1A2644976D6631E132BE1AE275A3098B5C288"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/load-lifecycle/progress-state.js",
+                                             "bytes":  1420,
+                                             "sha256":  "ACDFE7FC4D701763027A3264CA1352EE34570474957240000D6F21EAE96C60EF"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/load-lifecycle/progress.js",
+                                             "bytes":  6663,
+                                             "sha256":  "064B4A15247A1E7666358CF2EDAAEB62BE614F5C8727D95D3B365FEBC6200D6A"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/load-lifecycle/stage-motion.js",
+                                             "bytes":  3534,
+                                             "sha256":  "AB1B97557F62752CB9C305E86D4D0C9DB02106B711804760161292E5E1976710"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/vendor/THREE-LICENSE.txt",
+                                             "bytes":  1081,
+                                             "sha256":  "8B378EBE60E2FE500158CB0AC71CB5E8B7D92953C2ABCC63A0EB90499653B5BC"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/vendor/three.core.js",
+                                             "bytes":  1458113,
+                                             "sha256":  "9EDDE002B066A9A05676A6127F67735B62BAF399BDEA529F2F7E31657DA769E6"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-eagle-20261024/dist/vendor/three.module.js",
+                                             "bytes":  662772,
+                                             "sha256":  "9052042D676CB0FDC1DDFEFE193053F34B7AC0513A616FDAC4535D49987812EA"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-experience-20261024-160445/atlas.css",
+                                             "bytes":  23000,
+                                             "sha256":  "2C37D945FFF287373D1A2B636C9B8515F45106BEDCA42E6F16A40D42CAFB0952"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-experience-20261024-160445/atlas.js",
+                                             "bytes":  7575,
+                                             "sha256":  "F209E3B27E2776956689920A07052FC033B799FB33B4EB88A4AF53B8A6FE45CA"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-experience-20261024-160445/CHECKPOINT.json",
+                                             "bytes":  19712,
+                                             "sha256":  "0A0C27E0429F5F5EFEF0096E89848A3AF4867158D180D3ADEBBD792589BED190"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-experience-20261024-160445/index.html",
+                                             "bytes":  6748,
+                                             "sha256":  "DD90A0A4406F4385F441D52D8156973F16DEB4B0F8660A8A65E8AA68E7A782EA"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-experience-20261024-160445/README.md",
+                                             "bytes":  12194,
+                                             "sha256":  "E49AC4B50D59F7D7C5805D81B6A0577479C288DFAB39CBEC3BA9185EF2A6416B"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-i40-scenery-20261024-161431/CHECKPOINT.json",
+                                             "bytes":  22364,
+                                             "sha256":  "6D4BDE4696D3D2866A6EA217C68E7753CDB462556AB95E3091E9492621F1B4BC"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-i40-scenery-20261024-161431/index.html",
+                                             "bytes":  10195,
+                                             "sha256":  "1255EAB7AD7465E52E951D2558FB253124501B257B4336DAC8DEA2C954FBAE04"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-i40-scenery-20261024-161431/landscape.js",
+                                             "bytes":  8241,
+                                             "sha256":  "A6B6BA6B19ED03E61EDA994629270A428D9B03DBF0F3EED2660650AC947B0ABD"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-i40-scenery-20261024-161431/package.json",
+                                             "bytes":  931,
+                                             "sha256":  "3C3CD9DF2ADBCAA1E82D5F7D15C622BF8483E2663DE2A45AA2FAD75710E53980"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-i40-scenery-20261024-161431/README.md",
+                                             "bytes":  14897,
+                                             "sha256":  "3B264E3F2D54D6170D4C8B42B65141270276216D1374E528BF6D6E892B817E21"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-i40-scenery-20261024-161431/scene.js",
+                                             "bytes":  9175,
+                                             "sha256":  "B976F8FE162502298CDDE47EA1606433E6118EA2A3A99B043ACBB25F729510B9"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-inquiry-form-20261024-163845/atlas.css",
+                                             "bytes":  27510,
+                                             "sha256":  "F2358299575246DCB8DF491B70CF75AA69AB69990B74346D2AA4C39E6F5E330C"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-inquiry-form-20261024-163845/CHECKPOINT.json",
+                                             "bytes":  27440,
+                                             "sha256":  "62179920368A950C1C967252D3B49A2A5A45D8A4B7ACE408861D4370629A830C"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-inquiry-form-20261024-163845/index.html",
+                                             "bytes":  10185,
+                                             "sha256":  "7F6175BC530B66EECDD3F0461DD6BFF20F8FB731B6AE0448D62531988CEEB8AA"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-inquiry-form-20261024-163845/package.json",
+                                             "bytes":  1044,
+                                             "sha256":  "D866D1F28FB5F79E3D4A1E1C9D7BD49E72B5F84465DD25545BF3B91A0384E46A"
+                                         },
+                                         {
+                                             "path":  "experiment-backups/before-inquiry-form-20261024-163845/README.md",
+                                             "bytes":  18577,
+                                             "sha256":  "34AC2F06932E1D6B4506147408C2A48E8698EE7730B90A9093B1E245C77E4EA0"
+                                         }
+                                     ]
+                     },
+                     {
+                         "file":  "automation-history.zip",
+                         "purpose":  "Original Apps Script export including ten manual recipients, earlier GitHub verification copy, and registration-filter troubleshooting/rollback records.",
+                         "source":  "D:\\Ashish\\output",
+                         "count":  6,
+                         "bytes":  1197556,
+                         "sha256":  "1B2974D0B201BB46C2FBE203628F3624379A1B54E2E1BFB86DD9049F7DEF392A",
+                         "entries":  [
+                                         {
+                                             "path":  "github-source-export/after-hours-fleetdesk-main.zip",
+                                             "bytes":  1195555,
+                                             "sha256":  "E6F0C9371E275221072E645AB9C8CF75717600EE3D7DFCC9BAB65B35FFFCA271"
+                                         },
+                                         {
+                                             "path":  "github-source-export/Code.gs",
+                                             "bytes":  42640,
+                                             "sha256":  "1869C8054B8D6C7EC19B1DF124A0E2D842365A3CC56C133195BC1F10F8C4958B"
+                                         },
+                                         {
+                                             "path":  "github-source-export/github-verification.json",
+                                             "bytes":  327,
+                                             "sha256":  "A7CFC09370E6DFDF329D7376541B8F490535DCE153FBA1D1F8647E4308EE0BD9"
+                                         },
+                                         {
+                                             "path":  "fmcsa-registration-update/census-scan.gs",
+                                             "bytes":  1078,
+                                             "sha256":  "DA52B742A94F02FF41271EC8A915093C6DAA150AF92C8FE3A48157259E6A93FA"
+                                         },
+                                         {
+                                             "path":  "fmcsa-registration-update/update-record.json",
+                                             "bytes":  1799,
+                                             "sha256":  "11AD2E430B9327C98712313D1D04703105B47FEDE1CA9BB0CAA5FEDB2A62465B"
+                                         },
+                                         {
+                                             "path":  "fmcsa-registration-update/verify.mjs",
+                                             "bytes":  2188,
+                                             "sha256":  "B26EF9D60EB1A7FBCB57B761F93FE6EB40DAFE44022B814F6993C989354616F1"
+                                         }
+                                     ]
+                     },
+                     {
+                         "file":  "previous-upload.zip",
+                         "purpose":  "Complete earlier website-only upload package.",
+                         "source":  "D:\\Ashish\\after-hours-route-atlas-github-upload",
+                         "count":  74,
+                         "bytes":  1171391,
+                         "sha256":  "A236766A3EB0789E41F2561488028722DD7E5C92E2C2891BD2B36C8B4E4EDBEC",
+                         "entries":  [
+                                         {
+                                             "path":  ".gitignore",
+                                             "bytes":  220,
+                                             "sha256":  "2EA1F586A86387A76F04113E8521C4CF4A87D97042CCB292AE9688495A43528E"
+                                         },
+                                         {
+                                             "path":  "netlify.toml",
+                                             "bytes":  589,
+                                             "sha256":  "389F45D12BB13333880D0624DCDE27294B3CA71679DE3BBD140E6F9B879DDD69"
+                                         },
+                                         {
+                                             "path":  "package.json",
+                                             "bytes":  1355,
+                                             "sha256":  "C678CF187F659A7865BBA19BB3905B17E25BF9CE1F3548409A811D6D5698B8DB"
+                                         },
+                                         {
+                                             "path":  "README.md",
+                                             "bytes":  2019,
+                                             "sha256":  "687EAF2574433A4B38CB18E0BC1343C83902307006B3C1FF28ECF8AD3F9BAF2B"
+                                         },
+                                         {
+                                             "path":  "server.mjs",
+                                             "bytes":  2464,
+                                             "sha256":  "F5B778A7FA02DA7E96DA7907CFB2A0956A957D4410CB8663F533ABBAFD3E8D9B"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/atlas.css",
+                                             "bytes":  31672,
+                                             "sha256":  "9580B641719C3B16B5AD60429916F3767DA6E77A91FC8D8C31B6ADFD65B8AFCC"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/atlas.js",
+                                             "bytes":  11309,
+                                             "sha256":  "342E67751272FA6B9CEF92B78F97C60D5EB4083F29F6CA540978E600FDD934DB"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/branding.js",
+                                             "bytes":  1497,
+                                             "sha256":  "197167A0C2D5597FA9AD6B63FEAA7A68332850582CA61D2C05E24B59FA935D1D"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/dock-flag.js",
+                                             "bytes":  8091,
+                                             "sha256":  "3F97D17B40CCFFDCF9842ACD3B0437D39AE95B9B8B3E884A2CAC77A2D0F90F0E"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/eagle.js",
+                                             "bytes":  4866,
+                                             "sha256":  "3A7D331EBA8A6C38E5F9648F4912E9B8DF22F9B5AFFD8CEE0A3032BF3C26E44F"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/i40-landmarks.js",
+                                             "bytes":  5939,
+                                             "sha256":  "EEDE6EEDA8D79488ED31D9C1E1DAFF416A67E0F4C8F9D34889FFBEB6CF9410A8"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/index.html",
+                                             "bytes":  11122,
+                                             "sha256":  "3D6296F599573B2C8908A6D34B6C90972D84B3531B44E8C80E7B80B6CB3AFE51"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/journey.js",
+                                             "bytes":  4369,
+                                             "sha256":  "3C6108ECC65A12127BA7E8D162572BC3A0A3C29A76001DDE7B8CAC452E4999B5"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/landscape.js",
+                                             "bytes":  8249,
+                                             "sha256":  "23E49D579ADC834065A0AE7C1F2E4ABC6E99C9C451ECBCE72D9EB5F5E6B56145"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/parked-fleet.js",
+                                             "bytes":  2989,
+                                             "sha256":  "D5501DEC97D0A020E7D19A42598BDC0E9AA06EC0C87FDC81949799A100458E2E"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/rig-models.js",
+                                             "bytes":  12817,
+                                             "sha256":  "838938689BE27D518813771F6B3C0DC116581ECBB1BD2635DA9D8380CDA7C30E"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/route.js",
+                                             "bytes":  595,
+                                             "sha256":  "8F5BA4BB475D7FA7644A217E2E8A9FE688008A908A4D121437C050201A4CCCF1"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/scene.js",
+                                             "bytes":  11101,
+                                             "sha256":  "7502C22D166B1A6748BACFA644BC6820B245B726605CE7DCE8CA312FE04C7BAA"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/scenery-batch.js",
+                                             "bytes":  3297,
+                                             "sha256":  "25C4FE76DC9A54934B69B2A2E9F55A88BD2778ACF71BE1A9E70B0F163C591532"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/stage-copy.js",
+                                             "bytes":  1564,
+                                             "sha256":  "15745FBDD84297AD80D3DC48D5F90713B7AD0C9439D6D32DA38BB4BA37814983"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/world.js",
+                                             "bytes":  8881,
+                                             "sha256":  "893BBB39362231F693F4C97D8A935D1C0EF482C250EE3A7DD5C180F848F6C992"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/fonts/ibm-plex-sans-latin-400-normal.woff2",
+                                             "bytes":  22588,
+                                             "sha256":  "3B646991D30055A93A4ECC499713D4347953A74A947ECAB435AB72070CBDAB0E"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/fonts/ibm-plex-sans-latin-600-normal.woff2",
+                                             "bytes":  24252,
+                                             "sha256":  "8960851D691C054ED38E259BDCF1A6190D157B4203ED5BB32C632A863FB8EC2F"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/fonts/ibm-plex-sans-latin-700-normal.woff2",
+                                             "bytes":  22832,
+                                             "sha256":  "42E7B0C143C19DF9D99FD896E76B48F846EDF0902D200BC29796B34D12C33AA7"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/fonts/jetbrains-mono-latin-400.woff2",
+                                             "bytes":  19188,
+                                             "sha256":  "80A5DC9EE5C98AA278DB4D618D253A1A9DE8CFD5FF9D43A7A9CF41CBC4B6CE78"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/fonts/JetBrainsMono-OFL.txt",
+                                             "bytes":  4397,
+                                             "sha256":  "BB1C26EB6FE1839E3759548777C8A35B9495CE4878A4B833B1B63D43FF313A4B"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/fonts/OFL.txt",
+                                             "bytes":  4429,
+                                             "sha256":  "D0283623EF57E722FD0EB688A8041589670C608AB780CD3612D06BA6F153D3FD"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/load-lifecycle/index.html",
+                                             "bytes":  7920,
+                                             "sha256":  "68439FC13FEEEB95A1D1BAE8611289A6B1DD08D626AEB1C861946F2429D7AA1C"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/load-lifecycle/lifecycle.css",
+                                             "bytes":  10591,
+                                             "sha256":  "C10ABFACD932B80B3CF94D4ACA588BB565A0926A86EDF18E39B32FAE7703B869"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/load-lifecycle/progress-scene.js",
+                                             "bytes":  18007,
+                                             "sha256":  "6866A6A6663F6A3A820CB4D9D2B1A2644976D6631E132BE1AE275A3098B5C288"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/load-lifecycle/progress-state.js",
+                                             "bytes":  1420,
+                                             "sha256":  "ACDFE7FC4D701763027A3264CA1352EE34570474957240000D6F21EAE96C60EF"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/load-lifecycle/progress.js",
+                                             "bytes":  6663,
+                                             "sha256":  "064B4A15247A1E7666358CF2EDAAEB62BE614F5C8727D95D3B365FEBC6200D6A"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/load-lifecycle/stage-motion.js",
+                                             "bytes":  3534,
+                                             "sha256":  "AB1B97557F62752CB9C305E86D4D0C9DB02106B711804760161292E5E1976710"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/vendor/THREE-LICENSE.txt",
+                                             "bytes":  1081,
+                                             "sha256":  "8B378EBE60E2FE500158CB0AC71CB5E8B7D92953C2ABCC63A0EB90499653B5BC"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/vendor/three.core.js",
+                                             "bytes":  1458113,
+                                             "sha256":  "9EDDE002B066A9A05676A6127F67735B62BAF399BDEA529F2F7E31657DA769E6"
+                                         },
+                                         {
+                                             "path":  "cloudflare-dist/vendor/three.module.js",
+                                             "bytes":  662772,
+                                             "sha256":  "9052042D676CB0FDC1DDFEFE193053F34B7AC0513A616FDAC4535D49987812EA"
+                                         },
+                                         {
+                                             "path":  "dist/atlas.css",
+                                             "bytes":  31459,
+                                             "sha256":  "1B87416717902A21CAB7B6FB588C4066855E8D21556CC3524749DB4AFE97883B"
+                                         },
+                                         {
+                                             "path":  "dist/atlas.js",
+                                             "bytes":  11309,
+                                             "sha256":  "342E67751272FA6B9CEF92B78F97C60D5EB4083F29F6CA540978E600FDD934DB"
+                                         },
+                                         {
+                                             "path":  "dist/branding.js",
+                                             "bytes":  1497,
+                                             "sha256":  "197167A0C2D5597FA9AD6B63FEAA7A68332850582CA61D2C05E24B59FA935D1D"
+                                         },
+                                         {
+                                             "path":  "dist/dock-flag.js",
+                                             "bytes":  8091,
+                                             "sha256":  "3F97D17B40CCFFDCF9842ACD3B0437D39AE95B9B8B3E884A2CAC77A2D0F90F0E"
+                                         },
+                                         {
+                                             "path":  "dist/eagle.js",
+                                             "bytes":  4866,
+                                             "sha256":  "3A7D331EBA8A6C38E5F9648F4912E9B8DF22F9B5AFFD8CEE0A3032BF3C26E44F"
+                                         },
+                                         {
+                                             "path":  "dist/i40-landmarks.js",
+                                             "bytes":  5939,
+                                             "sha256":  "EEDE6EEDA8D79488ED31D9C1E1DAFF416A67E0F4C8F9D34889FFBEB6CF9410A8"
+                                         },
+                                         {
+                                             "path":  "dist/index.html",
+                                             "bytes":  13341,
+                                             "sha256":  "D5D43F92CC5715ECDA88AD654F044F1B57CF71FBC57A47065A18A3DE078C4BC4"
+                                         },
+                                         {
+                                             "path":  "dist/inquiry.js",
+                                             "bytes":  5571,
+                                             "sha256":  "66E5EBF9D8693A784DABEE33824ADD9B681903D492D4C2763FCEBA2905BE0526"
+                                         },
+                                         {
+                                             "path":  "dist/journey.js",
+                                             "bytes":  4369,
+                                             "sha256":  "3C6108ECC65A12127BA7E8D162572BC3A0A3C29A76001DDE7B8CAC452E4999B5"
+                                         },
+                                         {
+                                             "path":  "dist/landscape.js",
+                                             "bytes":  8249,
+                                             "sha256":  "23E49D579ADC834065A0AE7C1F2E4ABC6E99C9C451ECBCE72D9EB5F5E6B56145"
+                                         },
+                                         {
+                                             "path":  "dist/parked-fleet.js",
+                                             "bytes":  2989,
+                                             "sha256":  "D5501DEC97D0A020E7D19A42598BDC0E9AA06EC0C87FDC81949799A100458E2E"
+                                         },
+                                         {
+                                             "path":  "dist/rig-models.js",
+                                             "bytes":  12817,
+                                             "sha256":  "838938689BE27D518813771F6B3C0DC116581ECBB1BD2635DA9D8380CDA7C30E"
+                                         },
+                                         {
+                                             "path":  "dist/route.js",
+                                             "bytes":  595,
+                                             "sha256":  "8F5BA4BB475D7FA7644A217E2E8A9FE688008A908A4D121437C050201A4CCCF1"
+                                         },
+                                         {
+                                             "path":  "dist/scene.js",
+                                             "bytes":  11101,
+                                             "sha256":  "7502C22D166B1A6748BACFA644BC6820B245B726605CE7DCE8CA312FE04C7BAA"
+                                         },
+                                         {
+                                             "path":  "dist/scenery-batch.js",
+                                             "bytes":  3297,
+                                             "sha256":  "25C4FE76DC9A54934B69B2A2E9F55A88BD2778ACF71BE1A9E70B0F163C591532"
+                                         },
+                                         {
+                                             "path":  "dist/stage-copy.js",
+                                             "bytes":  1564,
+                                             "sha256":  "15745FBDD84297AD80D3DC48D5F90713B7AD0C9439D6D32DA38BB4BA37814983"
+                                         },
+                                         {
+                                             "path":  "dist/world.js",
+                                             "bytes":  8881,
+                                             "sha256":  "893BBB39362231F693F4C97D8A935D1C0EF482C250EE3A7DD5C180F848F6C992"
+                                         },
+                                         {
+                                             "path":  "dist/fonts/ibm-plex-sans-latin-400-normal.woff2",
+                                             "bytes":  22588,
+                                             "sha256":  "3B646991D30055A93A4ECC499713D4347953A74A947ECAB435AB72070CBDAB0E"
+                                         },
+                                         {
+                                             "path":  "dist/fonts/ibm-plex-sans-latin-600-normal.woff2",
+                                             "bytes":  24252,
+                                             "sha256":  "8960851D691C054ED38E259BDCF1A6190D157B4203ED5BB32C632A863FB8EC2F"
+                                         },
+                                         {
+                                             "path":  "dist/fonts/ibm-plex-sans-latin-700-normal.woff2",
+                                             "bytes":  22832,
+                                             "sha256":  "42E7B0C143C19DF9D99FD896E76B48F846EDF0902D200BC29796B34D12C33AA7"
+                                         },
+                                         {
+                                             "path":  "dist/fonts/jetbrains-mono-latin-400.woff2",
+                                             "bytes":  19188,
+                                             "sha256":  "80A5DC9EE5C98AA278DB4D618D253A1A9DE8CFD5FF9D43A7A9CF41CBC4B6CE78"
+                                         },
+                                         {
+                                             "path":  "dist/fonts/JetBrainsMono-OFL.txt",
+                                             "bytes":  4397,
+                                             "sha256":  "BB1C26EB6FE1839E3759548777C8A35B9495CE4878A4B833B1B63D43FF313A4B"
+                                         },
+                                         {
+                                             "path":  "dist/fonts/OFL.txt",
+                                             "bytes":  4429,
+                                             "sha256":  "D0283623EF57E722FD0EB688A8041589670C608AB780CD3612D06BA6F153D3FD"
+                                         },
+                                         {
+                                             "path":  "dist/load-lifecycle/index.html",
+                                             "bytes":  7920,
+                                             "sha256":  "68439FC13FEEEB95A1D1BAE8611289A6B1DD08D626AEB1C861946F2429D7AA1C"
+                                         },
+                                         {
+                                             "path":  "dist/load-lifecycle/lifecycle.css",
+                                             "bytes":  10591,
+                                             "sha256":  "C10ABFACD932B80B3CF94D4ACA588BB565A0926A86EDF18E39B32FAE7703B869"
+                                         },
+                                         {
+                                             "path":  "dist/load-lifecycle/progress-scene.js",
+                                             "bytes":  18007,
+                                             "sha256":  "6866A6A6663F6A3A820CB4D9D2B1A2644976D6631E132BE1AE275A3098B5C288"
+                                         },
+                                         {
+                                             "path":  "dist/load-lifecycle/progress-state.js",
+                                             "bytes":  1420,
+                                             "sha256":  "ACDFE7FC4D701763027A3264CA1352EE34570474957240000D6F21EAE96C60EF"
+                                         },
+                                         {
+                                             "path":  "dist/load-lifecycle/progress.js",
+                                             "bytes":  6663,
+                                             "sha256":  "064B4A15247A1E7666358CF2EDAAEB62BE614F5C8727D95D3B365FEBC6200D6A"
+                                         },
+                                         {
+                                             "path":  "dist/load-lifecycle/stage-motion.js",
+                                             "bytes":  3534,
+                                             "sha256":  "AB1B97557F62752CB9C305E86D4D0C9DB02106B711804760161292E5E1976710"
+                                         },
+                                         {
+                                             "path":  "dist/vendor/THREE-LICENSE.txt",
+                                             "bytes":  1081,
+                                             "sha256":  "8B378EBE60E2FE500158CB0AC71CB5E8B7D92953C2ABCC63A0EB90499653B5BC"
+                                         },
+                                         {
+                                             "path":  "dist/vendor/three.core.js",
+                                             "bytes":  1458113,
+                                             "sha256":  "9EDDE002B066A9A05676A6127F67735B62BAF399BDEA529F2F7E31657DA769E6"
+                                         },
+                                         {
+                                             "path":  "dist/vendor/three.module.js",
+                                             "bytes":  662772,
+                                             "sha256":  "9052042D676CB0FDC1DDFEFE193053F34B7AC0513A616FDAC4535D49987812EA"
+                                         },
+                                         {
+                                             "path":  "scripts/build-cloudflare.mjs",
+                                             "bytes":  3523,
+                                             "sha256":  "2EA9B536739CA09EF2CC3CCA85A2FE3419EDF8DD289B67B036F6495628CB25B1"
+                                         },
+                                         {
+                                             "path":  "scripts/verify-atlas-enhancements.mjs",
+                                             "bytes":  21741,
+                                             "sha256":  "20E92C2B6DB2358CFD5A0FB7090592CD0E06F59F1CB00E729858D6D895E1F230"
+                                         },
+                                         {
+                                             "path":  "scripts/verify-inquiry.mjs",
+                                             "bytes":  11535,
+                                             "sha256":  "2CA11CE916C03EFE6F534108D1D65193D03C14E8C070C1F1366455C76B13EE41"
+                                         },
+                                         {
+                                             "path":  "scripts/verify-journey.mjs",
+                                             "bytes":  2987,
+                                             "sha256":  "58A2832B5CE1B7BB31DDD95EAAE49B96B6010FF77B9B218A91D20BBF425B6849"
+                                         },
+                                         {
+                                             "path":  "scripts/verify-route-clearance.mjs",
+                                             "bytes":  2512,
+                                             "sha256":  "A052D404D6E1B0C410BE185E4A2DD80B398E1E274637546406BB0BB0DB1DB910"
+                                         },
+                                         {
+                                             "path":  "scripts/verify-stage-animations.mjs",
+                                             "bytes":  4885,
+                                             "sha256":  "10563AB42EC8DD9FD3D6E0DB07A1B6547F9B0F8CA0892600D06A5A541E6E9036"
+                                         }
+                                     ]
+                     },
+                     {
+                         "file":  "initial-checkpoint.zip",
+                         "purpose":  "Original 24 October 2026 project checkpoint, retained byte-for-byte.",
+                         "source":  "D:\\Ashish\\output\\logistics-checkpoints\\otr-route-atlas-2026-10-24-010705.zip",
+                         "count":  33,
+                         "bytes":  12596209,
+                         "sha256":  "1092F668BD333FBCB16255CB84EC8BE7DAA33EA22A5AE7C3EE32139D988D9FFC"
+                     }
+                 ]
+}
